@@ -2,6 +2,12 @@
 
 RPC and Websocket update
 
+Before doing this update ensure you have the correct docker install (one-click) check if this is the correct version for update.
+
+    sudo docker ps -a
+
+Read the output, at the right hand side under "name" if the strings are `pgsql and pgsql_ei` then use this update process.
+
 This will cover:
   - Taking the node and PGSQL services down with docker-compose down
   - Updating the startNode.sh and plugin.env file with the correct endpoints.
