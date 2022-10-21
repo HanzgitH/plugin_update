@@ -1,6 +1,6 @@
 # plugin_update
 
-RPC and Websocket update
+RPC and Websocket update, also adding TLS login via HTTPS.
 
 Before doing this update ensure you have the correct docker install (one-click) check if this is the correct version for update.
 
