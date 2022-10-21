@@ -1,4 +1,5 @@
 # plugin_update
+
 RPC and Websocket update
 
 This will cover:
@@ -10,7 +11,15 @@ This will cover:
  
  Please read the docker-compose.yaml file for the mounts and directories that have been linked and can be used outside of the container.
  
+ 
+ 
  Update installation:
+ 
+ MUST INSTALL IN /home directory and account where plugin node was install in:
+ 
+    cd /home
+ 
+ Download git files:
  
     sudo git clone https://github.com/HanzgitH/plugin_update.git && cd plugin_update && sudo chmod +x update.sh
     
