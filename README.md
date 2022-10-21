@@ -35,7 +35,7 @@ Open the plugin.env file and edit websocket:
     
 Save and exit:
   ctrl + x
-  y
+  , y , 
 press enter
     
 (edit websocket from wss://pluginws.blocksscan.io → wss://pliws1.xdcrpc.com)
@@ -44,7 +44,7 @@ press enter
    
 Save and exit:
   ctrl + x
-  y
+  , y ,
 press enter
 
 Now move to the update directory.
