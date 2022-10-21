@@ -11,3 +11,7 @@ This will cover:
   - Docker compose up then restarting node services.
  
  Please read the docker-compose.yaml file for the mounts and directories that have been linked and can be used outside of the container.
+ 
+ Update installation:
+ 
+    sudo git clone https://github.com/HanzgitH/plugin_update.git && cd plugin_update && sudo chmod +x update.sh
