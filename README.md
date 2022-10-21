@@ -35,7 +35,7 @@ Move directory to edit the startEI.sh:
 
     cd /opt/docker/goplugin/plugin-deployment
     
-Open the startEI.sh file and edit:
+Open the `startEI.sh` file and edit:
 
     nano startEI.sh
     
@@ -44,7 +44,7 @@ Open the startEI.sh file and edit:
   If your RPC is different then please ensure it is `https://plixdcrpc.icotokens.net`
   
   
-Open the plugin.env file and edit websocket:
+Open the `plugin.env` file and edit websocket:
 
     nano plugin.env
     
@@ -62,7 +62,7 @@ Now move to the update directory.
 
     cd /home/plugin_update
     
-Run the update.sh file for TLS and dockercompose:
+Run the `update.sh` file for TLS and dockercompose:
 
     ./update.sh
 
