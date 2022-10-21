@@ -33,7 +33,7 @@ Open the startEI.sh file and edit:
 
     nano startEI.sh
     
-edit rpc from `https://plirpc.blocksscan.io/ → https:/pliws.xdcrpc.com/)`
+edit rpc from `https://plirpc.blocksscan.io → https://plixdcrpc.icotokens.net)`
   
   If your RPC is different then please ensure it is `https:/pliws.xdcrpc.com/`
   
@@ -47,7 +47,7 @@ Save and exit:
   , y , 
 press enter
     
-(edit websocket from wss://pluginws.blocksscan.io → wss://pliws1.xdcrpc.com)
+(edit websocket from wss://pluginws.blocksscan.io → wss://plixdcwss.icotokens.net)
 
   If your Websocket is different then please ensure it is wss://pliws1.xdcrpc.com
    
