@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo -e "\n\n################# Making directory for tls and creating .crt files #################\n\n"
 
 sudo sed -i -e "/PLUGIN_TLS_PORT=0/d" /opt/docker/goplugin/plugin-deployment/plugin.env
