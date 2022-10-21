@@ -10,8 +10,9 @@ This will cover:
   - Adding more mounting points to the container for eas of use
   
  #Points to node, the nodeboot autoservice and logs will be removed as they are within the container. This will need to be redone and is covered in this     guide.
+ 
+ Please read the docker-compose.yaml file for the mounts and directories that have been linked and can be used outside of the container.
 
-Update guide:
 
   
   
