@@ -51,6 +51,6 @@ sleep 5
 sudo docker exec -it plinode /bin/bash -c "apt-get install logrotate -y" &&
 sleep 5
 sudo docker cp /home/plugin_update/pm2logs plinode:/etc/logrotate.d/pm2logs &&
-sudo docker cp /home/plugin_update/log.jsonl plinode:/etc/logrotate.d/log.jsonl &&
+sudo docker cp /home/plugin_update/logjsonl plinode:/etc/logrotate.d/logjsonl &&
 
 echo -e "\n\n################# Update complete #################\n\n"
