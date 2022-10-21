@@ -21,7 +21,7 @@ This will cover:
  
  Update installation:
  
- MUST INSTALL IN /home directory and user account where plugin node was installed:
+ MUST INSTALL IN `/home` directory and user account where plugin node was installed:
  
     cd /home
  
