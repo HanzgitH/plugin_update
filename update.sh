@@ -2,7 +2,7 @@
 
 echo -e "\n\n################# Docker compose down #################\n\n"
 
-sudo docker-compose down -d && sleep 5
+sudo docker-compose down && sleep 5
 
 cp /home/plugin_update/docker-compose.yaml /opt/docker/goplugin/plugin-deployment/docker-compose.yaml
 
