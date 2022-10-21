@@ -2,6 +2,8 @@
 
 echo -e "\n\n################# Docker compose down #################\n\n"
 
+cd /opt/docker/goplugin/plugin-deployment/
+
 sudo docker-compose down && sleep 5
 
 cp /home/plugin_update/docker-compose.yaml /opt/docker/goplugin/plugin-deployment/docker-compose.yaml
