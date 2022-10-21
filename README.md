@@ -26,7 +26,7 @@ Open the startEI.sh file and edit:
     
 (edit rpc from https://plirpc.blocksscan.io/ → https:/pliws.xdcrpc.com/)
   
-  # If your RPC is different then please ensure it is https:/pliws.xdcrpc.com/
+  If your RPC is different then please ensure it is https:/pliws.xdcrpc.com/
   
   
 Open the plugin.env file and edit websocket:
@@ -40,7 +40,7 @@ press enter
     
 (edit websocket from wss://pluginws.blocksscan.io → wss://pliws1.xdcrpc.com)
 
-   # If your Websocket is different then please ensure it is wss://pliws1.xdcrpc.com
+  If your Websocket is different then please ensure it is wss://pliws1.xdcrpc.com
    
 Save and exit:
   ctrl + x
