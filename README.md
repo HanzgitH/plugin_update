@@ -49,9 +49,9 @@ press enter
 
 Now move to the correct directory and run update.sh:
 
-    update.sh
+    cd /home/plugin_update
 
+    ./update.sh
 
-
-
+Any points or concerns please reach out in the official goplugin discord channel.
 
