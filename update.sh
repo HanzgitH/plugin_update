@@ -21,6 +21,30 @@ cd /opt/docker/goplugin/plugin-deployment && sudo mkdir -p external-adapters && 
 echo "TLS_CERT_PATH=/Plugin/server.crt
 TLS_KEY_PATH=/Plugin/server.key" >> plugin.env
 
-echo -e "\n\n################# Bringing up node  #################\n\n"
+echo -e "\n\n################# Starting node  #################\n\n"
 
 sudo docker-compose up -d && sleep 10
+
+sudo docker exec -it plinode /bin/bash -c ". ~/.profile && pm2 start /pluginAdm/startNode.sh"
+echo
+echo -e "Waiting for Node to come up... (15 Seconds)"
+
+sleep 15
+
+echo
+echo -e "\n\n################# Starting External Initiators (10 seconds) #################\n\n"
+
+sleep 10
+
+sudo docker exec --env-file ei.env -it plinode /bin/bash -c ". ~/.profile && pm2 start /pluginAdm/startEI.sh"
+
+echo -e "\n\n################# Adding logrotate to docker, this will compress and delete logs every 7 days #################\n\n"
+
+sleep 5
+
+sudo docker exec -it plinode /bin/bash -c "apt-get install logrotate -y" &&
+sleep 10
+sudo docker cp /root/pluginnode-install/pm2logs plinode:/etc/logrotate.d/pm2logs &&
+sudo docker cp /root/pluginnode-install/log.jsonl plinode:/etc/er.d/log.jsonl &&
+
+echo -e "\n\n################# Update complete #################\n\n"
