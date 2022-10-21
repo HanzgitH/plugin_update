@@ -33,9 +33,9 @@ Open the startEI.sh file and edit:
 
     nano startEI.sh
     
-(edit rpc from https://plirpc.blocksscan.io/ → https:/pliws.xdcrpc.com/)
+edit rpc from `https://plirpc.blocksscan.io/ → https:/pliws.xdcrpc.com/)`
   
-  If your RPC is different then please ensure it is https:/pliws.xdcrpc.com/
+  If your RPC is different then please ensure it is `https:/pliws.xdcrpc.com/`
   
   
 Open the plugin.env file and edit websocket:
