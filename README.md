@@ -6,7 +6,7 @@ Before doing this update ensure you have the correct docker install (one-click) 
 
     sudo docker ps -a
 
-Read the output, at the right hand side under "name" if the strings are `pgsql and pgsql_ei` then use this update process.
+Read the output, at the right hand side under "name" if the strings are `plinode, psql_node and psql_ei` then use this update process.
 
 This will cover:
   - Taking the node and PGSQL services down with docker-compose down
