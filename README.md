@@ -47,9 +47,11 @@ Save and exit:
   y
 press enter
 
-Now move to the correct directory and run update.sh:
+Now move to the update directory.
 
     cd /home/plugin_update
+    
+Run the update.sh file for TLS and dockercompose:
 
     ./update.sh
 
