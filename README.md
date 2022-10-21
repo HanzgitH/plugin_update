@@ -39,7 +39,7 @@ Open the startEI.sh file and edit:
 
     nano startEI.sh
     
-edit rpc from `https://plirpc.blocksscan.io → https://plixdcrpc.icotokens.net`
+   Edit rpc from `https://plirpc.blocksscan.io → https://plixdcrpc.icotokens.net`
   
   If your RPC is different then please ensure it is `https://plixdcrpc.icotokens.net`
   
@@ -49,18 +49,14 @@ Open the plugin.env file and edit websocket:
     nano plugin.env
     
 Save and exit:
-  ctrl + x
-  , y , 
-press enter
+  `ctrl + x, y , press enter`
     
-(edit websocket from wss://pluginws.blocksscan.io → wss://plixdcwss.icotokens.net
+   Edit websocket from `wss://pluginws.blocksscan.io` → `wss://plixdcwss.icotokens.net`
 
-  If your Websocket is different then please ensure it is wss://plixdcwss.icotokens.net
-   
+  If your Websocket is different then please ensure it is `wss://plixdcwss.icotokens.net`
+  
 Save and exit:
-  ctrl + x
-  , y ,
-press enter
+  `ctrl + x, y , press enter`
 
 Now move to the update directory.
 
