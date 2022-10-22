@@ -43,7 +43,6 @@ Open the `startEI.sh` file and edit:
   
   If your RPC is different then please ensure it is `https://plixdcrpc.icotokens.net`
   
-  
 Open the `plugin.env` file and edit websocket:
 
     nano plugin.env
@@ -72,7 +71,11 @@ This update is to assist the normal operation of a $PLI node.
 
 I have tested this install against my nodes and is free to share and use at each individual's discression, I take no personal responsibility for the use, distribution and implementation of this update.
 
-It is strongly advised to test against a node that matches your installation. Having a test node is crucial when updating or making changes to reduce errors and downtime. Read through the code that is located within `update.sh` to familiarise yourself with what is inteneded to be updated and how.
+It is strongly advised to test against a node that matches your installation. 
+
+Having a test node is crucial when updating or making changes to reduce errors and downtime. 
+
+Read through the code that is located within `update.sh` to familiarise yourself with what is inteneded to be updated and how.
 
 Any points or concerns please reach out in the official goplugin discord channel:
 
