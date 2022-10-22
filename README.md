@@ -65,9 +65,9 @@ Run the `update.sh` file for TLS and dockercompose:
 
     ./update.sh
     
-Now use 6689 to login to your dashboard:
+Now use `6689` to login to your dashboard:
 
-        https://ip:6689
+     https://ip:6689
         
 As the certificates are selfsigned each browser will show a warning, as its your own certificate this is acceptable.
     
