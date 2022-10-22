@@ -75,7 +75,7 @@ It is strongly advised to test against a node that matches your installation.
 
 Having a test node is crucial when updating or making changes to reduce errors and downtime. 
 
-Read through the code that is located within `update.sh` to familiarise yourself with what is inteneded to be updated and how.
+Read through the code that is located within `update.sh` to familiarise yourself with what is intended to be updated and how.
 
 Any points or concerns please reach out in the official goplugin discord channel:
 
