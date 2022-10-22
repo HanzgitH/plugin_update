@@ -65,6 +65,20 @@ Now move to the update directory.
 Run the `update.sh` file for TLS and dockercompose:
 
     ./update.sh
+    
+Disclaimer:
 
-Any points or concerns please reach out in the official goplugin discord channel.
+This update is to assist the normal operation of a $PLI node.
 
+I have tested this install against my nodes and is free to share and use at each individual's discression, I take no personal responsibility for the use, distribution and implementation of this update.
+
+It is strongly advised to test against a node that matches your installation. Having a test node is crucial when updating or making changes to reduce errors and downtime. Read through the code that is located within `update.sh` to familiarise yourself with what is inteneded to be updated and how.
+
+Any points or concerns please reach out in the official goplugin discord channel:
+
+`https://discord.gg/fMyankEBXY`
+
+#NodeLife
+
+Hanz @DeFi_Jon
+    
