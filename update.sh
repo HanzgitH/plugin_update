@@ -55,4 +55,6 @@ sleep 5
 sudo docker cp /home/plugin_update/pm2logs plinode:/etc/logrotate.d/pm2logs &&
 sudo docker cp /home/plugin_update/logjsonl plinode:/etc/logrotate.d/logjsonl &&
 
-echo -e "\n\n################# Update complete, new RPC and Websocket set, login to dashboard by https://<node_ip>:6689 #################\n\n"
+echo -e "\n\n################# Update complete, new RPC and Websocket set#################\n\n"
+
+echo -e "\n\n################# Login to dashboard by https://<node_ip>:6689 #################\n\n"
